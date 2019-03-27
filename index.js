@@ -1,28 +1,16 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import NumberComponent from './NumberComponent';
-import NumberPureComponent from './NumberPureComponent';
+import Demo1 from './Demo1';
+import Demo2 from './Demo2';
 import './style.css';
 
 class App extends Component {
-  state = {
-    number: 1
-  }
-  componentDidMount(){
-    setTimeout(()=>{
-      setInterval(()=>{
-        this.setState({
-          number: 1
-        })
-      }, 1000)
-    },5000)
-  }
+
   render(){
-    const { number } = this.state;
     return(
-      <div className="app">
-        <NumberComponent number={number}/>
-        <NumberPureComponent number={number}/>
+      <div>
+        <Demo1/>
+        <Demo2/>
       </div>
     )
   }
