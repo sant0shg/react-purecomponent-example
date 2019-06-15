@@ -1,3 +1,7 @@
-# react-f7sbct
+# React PureComponent example
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-f7sbct)
+<img src="https://techdoma.in/content/images/2019/03/purecomponent.gif" alt="purecomponent render vs normal component render"/>
+
+## Getting started
+
+Run `npm install` command, and start the project `npm start`
